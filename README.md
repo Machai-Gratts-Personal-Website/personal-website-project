@@ -1,2 +1,2 @@
 # personal-website-project
-## one two three
+## perpetual learner, focused, competitive
