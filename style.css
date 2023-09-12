@@ -1,13 +1,18 @@
 * {
     box-sizing: border-box;
 }
+span {
+    float: left;
+}
 header{
-    background-color: antiquewhite;
+    display: block;
+    background-color: rgb(223, 250, 215);
     position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
-    margin-bottom: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 body {
     background-color: rgb(124, 36, 128);
@@ -16,10 +21,11 @@ nav {
     float: right;
 }
 div {
+    margin-top: 50px;
     display: inline-block;
     border: 1px solid black;
     padding: 10px;
-    margin-right: 50px;
+    margin-right: 75px;
     background-color: seagreen;
     height: 150px;
     width: 300px;
