@@ -3,7 +3,7 @@ span {
 }
 header {
   display: block;
-  background-color: rgb(223, 250, 215);
+  background-color: rgb(250, 235, 215, 0.7);
   position: fixed;
   left: 0px;
   right: 0px;
@@ -12,8 +12,19 @@ header {
   padding-top: 10px;
 }
 body {
-  background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230726113205-herbig-haro-46-47-james-webb.jpg?c=original&q=h_618,c_fill);
-  opacity: 0.7;
+  background-image: url(https://static.euronews.com/articles/stories/06/91/03/78/1920x1080_cmsv2_4ab92b2e-f2d4-503a-9e8a-c47734d6eed5-6910378.jpg);
+  max-height: 350px;
+}
+footer {
+  display: inline-block;
+  position: fixed;
+  background-color: rgb(250, 235, 215, 0.7);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  max-height: 100px;
+  text-align: center;
+  padding: 10px;
 }
 nav {
   float: right;
@@ -31,13 +42,21 @@ div {
 h1,
 h2 {
   padding: 20px;
-  color: antiquewhite;
+  color: rgb(165, 247, 247);
+  opacity: 1;
 }
 .quote {
-  color: antiquewhite;
+  color: rgb(206, 245, 252);
 }
 .TBD {
   padding: 100px;
   text-align: center;
   color: rgb(255, 255, 255);
+}
+.b1 {
+  display: block;
+  text-align: center;
+  width: auto;
+  margin-left: 80px;
+  background-color: rgb(250, 235, 215, 0.4);
 }
