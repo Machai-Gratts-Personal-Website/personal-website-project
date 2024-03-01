@@ -96,3 +96,12 @@ h2 {
   margin-right: auto;
 }
 
+.leftLean > a1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.rightLean > a1 {
+  display: flex;
+  align-items: flex-end;
+}
