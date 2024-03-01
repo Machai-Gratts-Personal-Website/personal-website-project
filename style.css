@@ -42,17 +42,6 @@ h2 {
   color: rgb(255, 255, 255);
   opacity: 1;
 }
-.form {
-  margin-top: 20%;
-  display: flex;
-  border: 1px solid black;
-  padding: 10px;
-  background-color: rgb(250, 235, 215, 0.7);
-  justify-content: center;
-  height: auto;
-  left: 0px;
-  right: 0px;
-}
 .formLabel {
   display: inline-flex;
   align-items: flex-start;
@@ -96,12 +85,9 @@ h2 {
   margin-right: auto;
 }
 
-.leftLean > a1 {
-  display: flex;
-  align-items: flex-start;
-}
-
-.rightLean > a1 {
-  display: flex;
-  align-items: flex-end;
+.form {
+  display: grid;
+  background-color: rgba(240, 248, 255, 0);
+  color: rgb(255, 255, 255);
+  align-items: center;
 }
