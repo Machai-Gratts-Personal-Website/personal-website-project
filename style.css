@@ -18,7 +18,7 @@ header {
   text-decoration: underline;
 }
 body {
-  background-image: url(https://static.euronews.com/articles/stories/06/91/03/78/1920x1080_cmsv2_4ab92b2e-f2d4-503a-9e8a-c47734d6eed5-6910378.jpg);
+  background-color: rgb(20, 51, 37);
   max-height: 350px;
 }
 footer {
@@ -86,10 +86,11 @@ h2 {
 }
 
 .form {
-  display: grid;
+  display: flex;
   background-color: rgba(240, 248, 255, 0);
   color: rgb(255, 255, 255);
-  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
 }
 .a1 > .abt {
   display: flex;
